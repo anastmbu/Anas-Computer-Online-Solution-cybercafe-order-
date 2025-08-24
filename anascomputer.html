@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anas Computer Online Solution - Order Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+    .container {
+      width: 90%;
+      max-width: 700px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      margin-bottom: 15px;
+    }
+    button {
+      background: #0077b6;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #023e8a;
+    }
+    .payment-box {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .payment-box img {
+      width: 200px;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+    }
+    .whatsapp-btn {
+      display: block;
+      text-align: center;
+      background: #25d366;
+      color: white;
+      padding: 12px;
+      margin-top: 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .whatsapp-btn:hover {
+      background: #1da851;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Anas Computer Online Solution</h1>
+    <p>Cyber Cafe | Online Order & Quick Response</p>
+  </header>
+
+  <div class="container">
+    <h2>Order Form</h2>
+    <form>
+      <label>Full Name</label>
+      <input type="text" required>
+
+      <label>Mobile No</label>
+      <input type="tel" required>
+
+      <label>Email ID</label>
+      <input type="email">
+
+      <label>Full Address</label>
+      <textarea required></textarea>
+
+      <label>Identification Mark</label>
+      <input type="text">
+
+      <label>Select Service</label>
+      <select required>
+        <option>-- Choose Service --</option>
+        <option>New PAN Card Apply</option>
+        <option>PAN Card Correction</option>
+        <option>New Voter Card Apply</option>
+        <option>Voter Card Correction</option>
+        <option>Driving Licence Apply</option>
+        <option>Passport Apply</option>
+        <option>Income Certificate</option>
+        <option>Caste Certificate</option>
+        <option>EWS Apply</option>
+        <option>IGNOU Assignment</option>
+        <option>Other Work</option>
+      </select>
+
+      <label>Upload Documents</label>
+      <input type="file" multiple>
+
+      <button type="submit">Place Order</button>
+    </form>
+
+    <div class="payment-box">
+      <h3>Scan & Pay</h3>
+      <p>Use any UPI App (PhonePe / GooglePay / Paytm)</p>
+      <img src="upi-qr.png" alt="UPI QR Code">
+    </div>
+
+    <a href="https://wa.me/918789853098" target="_blank" class="whatsapp-btn">
+      📞 Contact on WhatsApp
+    </a>
+  </div>
+
+  <footer style="text-align:center; padding:15px; background:#0077b6; color:white;">
+    Contact: 7870218540 | Email: anascomputer786@gmail.com <br>
+    Address: Parbatti Chowk, Opp. Shankar Gas Agency, Bhagalpur, Bihar (812002)
+  </footer>
+
+</body>
+</html>
